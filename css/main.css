@@ -1,0 +1,907 @@
+.main {
+    left: auto;
+    width: 70%;
+    margin-left: 30%;
+    background-color: rgb(247, 247, 247);
+}
+
+/* <!-- 初始页面 start--> */
+.main-all {
+    display: block;
+}
+
+.carousel {
+    width: 1050px;
+    height: 490px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0px 6px;
+    color: #fff;
+    background-color: #000;
+    font-size: 12px;
+    opacity: 0.6;
+    border-radius: 2px;
+    z-index: 200;
+}
+
+.carousel ul {
+    list-style: none;
+    width: 6000px;
+    position: relative;
+    left: 0px;
+    transition: left .5s ease 0s;
+}
+
+.carousel ul li {
+    float: left;
+    width: 1050px;
+    height: 490px;
+}
+
+.carousel ul li img {
+    width: 100%;
+}
+
+.carousel .rightbtn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -25px;
+    width: 50px;
+    height: 50px;
+}
+
+.promotion {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(247, 247, 247);
+}
+
+.grid-all {
+    width: 1011px;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.grid {
+    float: left;
+    padding: 0 10px;
+}
+
+.grid img:hover {
+    margin-top: -3px;
+    box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 20%);
+}
+
+.grid img {
+    position: relative;
+    width: 317px;
+    height: 200px;
+    box-shadow: 0px 1px 1px 1px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    transition: all .3s;
+}
+
+.club {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.club-wrapper {
+    position: relative;
+    width: 720px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.club-left {
+    float: left;
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+}
+
+.club-left h2 {
+    font-size: 22px;
+    font-weight: normal;
+    color: black;
+}
+
+.club-left p {
+    display: block;
+    width: 360px;
+    height: 65px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+    margin-top: 10px;
+}
+
+.more {
+    color: #C2A661;
+}
+
+.club-foot {
+    margin-left: -15px;
+    margin-top: 15px;
+}
+
+.club-click {
+    width: 70px;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px solid #00A862;
+    border-radius: 48px;
+    box-sizing: border-box;
+    color: #00A862;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-left: 17px;
+}
+
+.club-right {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
+
+.tmall {
+    width: 100%;
+    height: 390px;
+}
+
+.tmall-wrapper {
+    width: 750px;
+    margin: 35px auto;
+}
+
+.tmall h2 {
+    font-size: 22px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.tmall p {
+    text-align: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.tmall-grid {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    height: 270px;
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+.tmall-grid li {
+    position: relative;
+    float: left;
+    width: 162px;
+    height: 197px;
+    transition: all .3s;
+
+}
+
+.tmall-grid li:hover {
+    margin-top: -5px;
+    box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 10%);
+
+}
+
+.tmall-grid a {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    text-align: center;
+    width: 162px;
+    height: 197px;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.tmall-grid img {
+    width: 101px;
+    height: 72px;
+    position: absolute;
+    top: -30px;
+    right: 30px;
+}
+
+.tmall-title {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.margin {
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.caption {
+    font-size: 12px;
+    color: #C2A661;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-top: 20px;
+    text-transform: none;
+}
+
+.coffeehouse {
+    width: 100%;
+    height: 430px;
+    background-color: rgb(253, 253, 253);
+    overflow: hidden;
+}
+
+.coffeehouse-wrapper {
+    position: relative;
+    top: 30px;
+    width: 768px;
+    height: 74px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.coffeehouse-wrapper h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.coffeehouse-wrapper p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.scroll-wrapper {
+    position: relative;
+    margin-top: 60px;
+    height: 250px;
+}
+
+.scroll-items {
+    display: flex;
+    justify-content: space-between;
+    width: 1216px;
+    height: 250px;
+    position: relative;
+    left: 150px;
+    transition: left .5s ease 0s;
+}
+
+.scroll-items a {
+    position: relative;
+    display: inline-block;
+    width: 288px;
+    height: 225px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 20%);
+    transition: all .3s;
+}
+
+.scroll-items a:hover {
+    margin-top: -5px;
+    box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 20%);
+}
+
+.scroll-items img {
+    width: 290px;
+    height: 168px;
+}
+
+.coffeetag {
+    position: absolute;
+    padding: 4px 12px;
+    left: 0px;
+    top: 6px;
+    font-size: 14px;
+    background: #C2A661;
+    color: #FFF;
+}
+
+.scroll-items strong {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+.scroll-arrow {
+    border-radius: 50%;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 12%);
+    box-sizing: border-box;
+    background: white;
+    cursor: pointer;
+    height: 28.8px;
+    margin-top: -16px;
+    position: absolute;
+    padding: 2px 0px;
+    text-align: center;
+    top: 50%;
+    width: 28.8px;
+    z-index: 1;
+}
+
+.scroll-arrow-left {
+    opacity: 0;
+    left: 24px;
+}
+
+.scroll-arrow-right {
+    right: 24px;
+}
+
+.scroll-arrow-left:hover {
+    left: 20px;
+}
+
+.scroll-arrow-right:hover {
+    right: 20px;
+}
+
+.footer {
+    margin-top: -20px;
+
+}
+
+.footer a {
+    color: #666;
+    font-size: 14px;
+
+}
+
+.footer img {
+    width: 10px;
+    height: 10px;
+}
+
+/* <!-- 初始页面 end--> */
+
+
+/* <!-- 登录页面start --> */
+.account-register {
+    display: none;
+    width: 1050px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(247, 247, 247);
+}
+
+.welcome {
+    width: 1050px;
+    height: 490px;
+}
+
+.welcome img {
+    width: 100%;
+}
+
+.join-form {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    background-color: rgb(254, 254, 254);
+}
+
+.login-tip {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: url(../images/login-tip.png) no-repeat;
+    background-size: contain;
+}
+
+.login-tip p {
+    text-align: right;
+    padding-right: 2px;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.padded {
+    width: 100%;
+    height: 256px;
+    background-color: rgb(21, 119, 123);
+}
+
+.padded-main {
+    width: 720px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.gold {
+    display: inline-block;
+}
+
+.gold h2 {
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.gold p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #D8D8D8;
+}
+
+.gold-buttom a {
+    position: relative;
+    top: 30px;
+    width: 71px;
+    height: 40px;
+    display: inline-block;
+    color: #C2A661;
+    border: 1px solid #C2A661;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.gold-buttom span {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.wrapper-mobile {
+    width: 480px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.user-field {
+    position: relative;
+    padding-top: 50px;
+}
+
+.username {
+    display: inline-block;
+    width: 100%;
+    border-radius: 0;
+    box-sizing: border-box;
+    padding: 8px 0;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+    outline: none;
+    transition-property: border;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.username:focus {
+    font-weight: 700;
+    color: #000;
+    border-color: #00A862;
+}
+
+.username:hover {
+    border-color: #00A862;
+}
+
+.user {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.userfocus {
+    display: block;
+    top: 20px;
+    font-size: 14px;
+
+}
+
+.message {
+    display: none;
+    padding-left: 27px;
+    color: rgba(0, 0, 0, 0.56);
+    display: block;
+    margin-top: 4px;
+    text-align: left;
+    font-size: 16px;
+    background: url(../images/cross-red.svg) no-repeat left center;
+}
+
+.password-field {
+    position: relative;
+    padding-top: 20px;
+
+}
+
+.password {
+    display: inline-block;
+    width: 100%;
+    border-radius: 0;
+    box-sizing: border-box;
+    padding: 8px 0;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+    outline: none;
+    transition-property: border;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.password:focus {
+    font-weight: 700;
+    color: #000;
+    border-color: #00A862;
+}
+
+.password:hover {
+    border-color: #00A862;
+}
+
+.pass {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.passfocus {
+    display: block;
+    top: 2px;
+    font-size: 14px;
+
+}
+
+.toggle-password {
+    top: 30px;
+    cursor: pointer;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    z-index: 500;
+    background: url(../images/hide-password.svg) no-repeat;
+}
+
+.show {
+    background: url(../images/show-password.svg) no-repeat;
+
+}
+
+.checkbox {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.checkbox input {
+    opacity: 0;
+}
+
+.checkbox label {
+    border: 1px solid #00A862;
+    display: inline-block;
+    border-radius: 8px;
+    content: '';
+    opacity: 1;
+    height: 30px;
+    margin: -4px 8px 0 0;
+    width: 30px;
+    cursor: pointer;
+}
+
+.checkbox span {
+    display: inline-block;
+    width: 90px;
+    height: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+label.remember {
+    background-color: #00A862;
+    background-image: url(../images/checked.svg);
+}
+
+.checkbox p {
+    float: right;
+}
+
+.checkbox p span {
+    color: #00A862;
+    font-size: 16px;
+}
+
+.body-wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 280px;
+}
+
+.wrap-title {
+    position: relative;
+    width: 280px;
+    height: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.embed {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.embed span {
+    float: right;
+    color: #b3b3b3;
+    cursor: pointer;
+    font-size: 12px;
+    height: 16px;
+    width: 24px;
+    border: 1px solid #999;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 4px 0 4px 6px;
+    position: relative;
+}
+
+.why {
+    background: url(../images/why.png) no-repeat center center;
+    background-size: 50%;
+}
+
+.update {
+    background: url(../images/update.png) no-repeat center center;
+    background-size: 50%;
+}
+
+.why:hover {
+    background: url(../images/whyhover.png) no-repeat center center;
+    background-size: 50%;
+    border-color: rgb(0, 122, 255);
+}
+
+.update:hover {
+    background: url(../images/updatehover.png) no-repeat center center;
+    background-size: 50%;
+    border-color: rgb(0, 122, 255);
+}
+
+#verify {
+    width: 280px;
+    height: 200px;
+    background: url(../images/slip-background.png) no-repeat;
+    background-size: contain;
+}
+
+#drag {
+    position: absolute;
+    background-image: url(../images/slip-spilit.png);
+    background-position: -58.3333px -204.167px;
+    background-size: 284.167px 258.333px;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 105px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.line {
+    position: absolute;
+    background-image: url(../images/slip-spilit.png);
+    background-position: 0px -175.833px;
+    background-size: 284.167px 258.333px;
+    width: 280px;
+    height: 13.3333px;
+    left: 0px;
+    top: 200px;
+    z-index: 1;
+    opacity: 1;
+}
+
+#dot {
+    position: absolute;
+    background-image: url(../images/slip-spilit.png);
+    background-position: 0px -204px;
+    background-size: 284.167px 258.333px;
+    left: 20px;
+    top: 192px;
+    z-index: 2;
+    width: 55px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(26, 121, 255);
+    box-shadow: rgb(26 121 255 / 50%) 0px 0px 4.16667px 0.416667px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+#success {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 230px;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, .6);
+
+}
+
+#success span {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.success-right {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background: url(../images/checked.svg) no-repeat;
+    background-size: 70%;
+    background-position: 8px 6px;
+    background-color: #00A862;
+
+}
+
+.success-word {
+    font-size: 16px;
+    font-weight: 700;
+    color: #00A862;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.actions {
+    margin-top: 20px;
+    height: 51px;
+    text-align: right;
+
+}
+
+.actions-button {
+    display: inline-block;
+    width: 82px;
+    height: 51px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 38%);
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background: #f7f7f7;
+    border-color: #f7f7f7;
+    color: rgba(0, 0, 0, 0.38);
+    cursor: not-allowed;
+}
+
+/* <!-- 登录页面end --> */
+
+/* 菜单页面start */
+.page-menu-list {
+    display: none;
+    background-color: rgb(247, 247, 247);
+}
+
+.page-menu-list ul {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.page-menu-list h3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.56);
+
+}
+
+.page-menu-list ul li {
+    position: relative;
+    float: left;
+    width: 210px;
+    height: 221px;
+}
+
+.page-menu-list a {
+    position: absolute;
+    width: 150px;
+    height: 186px;
+    left: 50%;
+    top: 50%;
+    margin-top: -93px;
+    margin-left: -75px;
+    text-align: center;
+    transition: all .3s;
+}
+
+.page-menu-list a:hover {
+    margin-top: -98px;
+}
+
+.page-menu-list a:hover .circle {
+    box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 20%);
+}
+
+.circle {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 12%);
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.circle img {
+    width: 100%;
+}
+
+.frap {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    width: 110px;
+    height: 51px;
+    z-index: 10;
+    background-color: #00A862;
+    text-align: center;
+    line-height: 51px;
+    font-size: 16px;
+    color: #FFF;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.frap:hover {
+    background-color: rgba(0, 168, 98, .8);
+}
+
+/* 菜单页面end */

@@ -1,0 +1,411 @@
+.nav {
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+}
+
+header {
+    height: 90px;
+}
+
+.header {
+    position: relative;
+    padding-top: 25px;
+    height: 100%;
+}
+
+.header-left {
+    float: left;
+    width: 250px;
+    margin-left: 5px;
+
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    width: 36px;
+    height: 36px;
+    padding-top: 23px;
+}
+
+.logo a {
+    display: block;
+    background: url(../images/logo.svg) no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.header-left ul {
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    padding-top: 23px;
+
+}
+
+.header-left ul li {
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 10px;
+
+}
+.header-right {
+    float: right;
+    width: 24px;
+    height: 36px;
+    margin-top: 8px;
+    margin-right: 25px;
+}
+
+.header-right img {
+    width: 100%;
+}
+
+.display-one {
+    display: block;
+    width: 300px;
+    height: 270px;
+    margin-top: 240px;
+    margin-left: 60px;
+}
+
+.display-one .coffe {
+    display: block;
+    width: 300px;
+    height: 67px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav-footer {
+    margin-top: -5px;
+}
+
+.denglu {
+    float: left;
+}
+
+.deng {
+    position: relative;
+    top: 3px;
+    width: 32px;
+    height: 16px;
+    font-size: 16px;
+    color: #00A862;
+}
+
+.zhuce {
+    float: left;
+    width: 58px;
+    height: 31px;
+    margin-left: 20px;
+    border: 1px solid #00A862;
+    border-radius: 48px;
+    box-sizing: border-box;
+    color: #00A862;
+    font-size: 16px;
+}
+
+.zhuce span {
+    margin-left: 12px;
+}
+
+.display-two {
+    display: none;
+    width: 300px;
+    height: 270px;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+
+.create {
+    display: inline-block;
+    width: 300px;
+    height: 67px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+.tabs-wrapper {
+    margin-top: -10px;
+
+}
+
+.tabs-wrapper ul li {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.tabs-wrapper span {
+    color: rgba(0, 0, 0, 0.56);
+
+}
+.tabs-wrapper span:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.active {
+    border-bottom: 3px solid #00A862;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 2px;
+    padding-bottom: 4px;
+}
+.active span {
+    color: black;
+}
+.display-three {
+    display: none;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+.srcoll {
+    display: block;
+    overflow-y:auto;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.Search {
+    width: 100%;
+    overflow: hidden;
+}
+.search {
+    width: 350px;
+    height: 60px;
+    margin:0 auto;
+    background-color: #fff;
+} 
+.location {
+    width: 272px;
+    height: 26px;
+    cursor: pointer;
+}
+.switch {
+    font-size: 14px;
+    color: #000;
+}
+.switch::before {
+    content: '';
+    position: relative;
+    top: 4px;
+    margin-right: 6px;
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    background: url(../images/icon-locator-green.svg) no-repeat center/contain;
+}
+.switch::after {
+    content: '';
+    position: relative;
+    top: -1px;
+    margin-left: 6px;
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background: url(../images/icon-locator-arrow.svg) no-repeat center/contain;
+}
+.search-input {
+    display: inline-block;
+    width: 260px;
+    border-radius: 0;
+    box-sizing: border-box;
+    padding: 5px 0;
+    font-size: 16px;
+    outline:none;
+    transition-property: border;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.search-input:focus {
+    font-size: 16px;
+}
+.icon-search {
+    position: relative;
+    top: -3px;
+    right: 30px;
+    cursor: pointer;
+}
+.filters {
+    float: right;
+    font-size: 17px;
+    color: #00A862;
+
+}
+.storelist {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.storelist li {
+    width: 100%;
+}
+.storelist li:hover {
+    background-color: rgb(242, 242, 242) !important;
+}
+.storelist-li {
+    position: relative;
+    width: 360px;
+    height: 150px;
+    margin:0 auto;
+}
+.info-green {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+.storelist-title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #000;
+}
+.delivery {
+    width: 28px;
+    height: 20px;
+    margin-left: 5px;
+}
+.mop {
+    width: 40px;
+    height: 36px;
+}
+.storelist-li small {
+    display: block;
+    width: 270px;
+    margin-top: 4px;
+    margin-left: 50px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.56);
+}
+.distance {
+    font-size: 14px;
+    margin-left: 50px;
+    color: #000;
+    font-size: 15px;
+}
+.number {
+    width: 24px;
+    height: 41px;
+    position: absolute;
+
+}
+.number img {
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    width: 100%;
+}
+.number span {
+    position: absolute;
+    top: -140%;
+    left: 80%;
+    z-index: 1;
+    font-weight: 700;
+    color: #fff;
+}
+.display-four {
+    /* display: none; */
+    width: 300px;
+    height: 270px;
+    margin-left: 90px;
+    margin-top: 160px;
+
+}
+.menu-wrapper {
+    margin-top: -20px;
+}
+.display-right {
+    display: none;
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    transition: all .5s;
+}
+.display-right img {
+    width: 70%;
+}
+.container {
+    position: relative;
+    width: 322px;
+    height: 550px;
+    background-color: #fff;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 700;
+}
+.container li {
+    margin-bottom: 10px;
+}
+.lastli {
+    padding-bottom: 14px;
+    border-bottom: 1px rgb(224, 224, 224) solid;
+}
+.account img {
+    width: 40%;
+}
+.account {
+    font-weight: 500;
+}
+.collapse {
+    position: absolute;
+    bottom: 15px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.38);    
+}
+.collapse span {
+    padding:0 4px;
+}
+.collapse a {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.38);    
+}
+.menu-all-box {
+    display: none;
+}
+.menu-drink-box {
+    display: none;
+    margin-top: -50px;
+}
+
+.menu-food-box {
+    display: none;
+    margin-top: -50px;
+
+}
+.menu-coffee-box {
+    display: none;
+    margin-top: -50px;
+
+}
+.menu-shop-box {
+    display: none;
+    margin-top: -50px;
+
+}
+.back {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+    cursor: pointer;
+}
+.menu-drink-box .menu {
+    margin-top: 0;
+}

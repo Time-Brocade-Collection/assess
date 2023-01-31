@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='keywords' content='星巴克中国, 星巴克官网, 星巴克首页, starbucks.com.cn' />
+    <meta name='description' content='欢迎访问星巴克中国官网。'>
+    <title>星巴克 | 用每一杯咖啡传递星巴克独特的咖啡体验</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/nav.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/slip-code.js"></script>
+    <script src="./js/interface.js"></script>
+
+</head>
+
+<body>
+    <!--请先右键express.js运行node express.js启动服务器-->
+    <div class="all">
+        <!-- 左侧导航栏start -->
+        <div class="nav">
+            <header>
+                <div class="header">
+                    <div class="header-left">
+                        <div class="logo">
+                            <h1>
+                                <a href="index.html" title="星巴克">星巴克</a>
+                            </h1>
+                        </div>
+                        <ul>
+                            <li class="header-shop"><a href="javascript:void(0);">门店</a></li>
+                            <li class="header-account"><a href="javascript:void(0);">我的账户</a></li>
+                            <li class="header-menu"><a href="javascript:void(0);">菜单</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-right">
+                        <a href="javascript:void(0);">
+                            <img src="./images/header-right.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <div class="body">
+                <!-- 初始 -->
+                <div class="display-one">
+                    <span class="coffe">心情惬意，来杯咖啡吧 ☕</span>
+                    <div class="nav-footer">
+                        <div class="denglu">
+                            <a href="javascript:void(0);">
+                                <img src="./images/icon-account.svg" alt="">
+                            </a>
+                            <a href="javascript:void(0);" class="deng">登录</a>
+                        </div>
+                        <a href="javascript:void(0);" class="zhuce"><span>注册</span></a>
+                    </div>
+                </div>
+                <!-- 点击登录注册 -->
+                <div class="display-two">
+                    <span class="create">登录或创建一个新帐户 🌟</span>
+                    <div class="tabs-wrapper">
+                        <ul>
+                            <li><a href="javascript:void(0);" class="tabs active"><span>登录</span></a></li>
+                            <li><a href="javascript:void(0);" class="tabs"><span>注册</span></a></li>
+                            <li><a href="javascript:void(0);" class="tabs"><span>关于星享俱乐部</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 点击门店 -->
+                <div class="display-three">
+                    <div class="srcoll">
+                        <div class="Search">
+                            <div class="search">
+                                <div class="location">
+                                    <div class="switch">
+                                        <span>北京 西城</span>
+                                    </div>
+                                </div>
+                                <input class="search-input" type="text" placeholder="输入地址查找门店">
+                                <img src="./images/icon-search.svg" alt="" class="icon-search">
+                                <a href="javascript:void(0);" class="filters">筛选<span></span></a>
+                            </div>
+                        </div>
+                        <ul class="storelist">
+                            <li>
+                                <div class="storelist-li">
+                                    <img src="./images/icon-info-green.svg" alt="" class="info-green">
+                                    <span class="storelist-title">北京太平桥大街咖啡店</span>
+                                    <img src="./images/delivery.png" alt="" class="delivery">
+                                    <img src="./images/icon-mop.svg" alt="" class="mop">
+                                    <small>北京市 北京市北京市 北京市西城区太平桥大街18号丰融国际203号</small>
+                                    <span class="distance">337 m</span>
+                                    <div class="number">
+                                        <span>1</span>
+                                        <img src="./images/icon-pin-solid-grey.svg" alt="" class="getgreen">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="storelist-li">
+                                    <img src="./images/icon-info-green.svg" alt="" class="info-green">
+                                    <span class="storelist-title">北京西单北大街咖啡店</span>
+                                    <img src="./images/delivery.png" alt="" class="delivery">
+                                    <img src="./images/icon-mop.svg" alt="" class="mop">
+                                    <small>北京市 北京市北京市 北京市西城区西单北大街110号楼L2-2.23号</small>
+                                    <span class="distance">531 m</span>
+                                    <div class="number">
+                                        <span>2</span>
+                                        <img src="./images/icon-pin-solid-grey.svg" alt="" class="getgreen">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="storelist-li">
+                                    <img src="./images/icon-info-green.svg" alt="" class="info-green">
+                                    <span class="storelist-title">北京西单大悦城二店</span>
+                                    <img src="./images/delivery.png" alt="" class="delivery">
+                                    <img src="./images/icon-mop.svg" alt="" class="mop">
+                                    <small>北京市 北京市北京市 北京市西城区西单北大街131号西单大悦城101-XZL号</small>
+                                    <span class="distance">536 m</span>
+                                    <div class="number">
+                                        <span>3</span>
+                                        <img class="getgreen" src="./images/icon-pin-solid-grey.svg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="storelist-li">
+                                    <img src="./images/icon-info-green.svg" alt="" class="info-green">
+                                    <span class="storelist-title">北京太平桥大街咖啡店</span>
+                                    <img src="./images/delivery.png" alt="" class="delivery">
+                                    <img src="./images/icon-mop.svg" alt="" class="mop">
+                                    <small>北京市 北京市北京市 北京市西城区太平桥大街18号丰融国际203号</small>
+                                    <span class="distance">337 m</span>
+                                    <div class="number">
+                                        <span>4</span>
+                                        <img class="getgreen" src="./images/icon-pin-solid-grey.svg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="storelist-li">
+                                    <img src="./images/icon-info-green.svg" alt="" class="info-green">
+                                    <span class="storelist-title">北京泰康国际大厦店</span>
+                                    <img src="./images/delivery.png" alt="" class="delivery">
+                                    <img src="./images/icon-mop.svg" alt="" class="mop">
+                                    <small>北京市 北京市北京市 北京市西城区武定侯街2号楼泰康国际大厦101-102单元</small>
+                                    <span class="distance">574 m</span>
+                                    <div class="number">
+                                        <span>5</span>
+                                        <img class="getgreen" src="./images/icon-pin-solid-grey.svg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="storelist-li">
+                                    <img src="./images/icon-info-green.svg" alt="" class="info-green">
+                                    <span class="storelist-title">北京太平桥大街咖啡店</span>
+                                    <img src="./images/delivery.png" alt="" class="delivery">
+                                    <img src="./images/icon-mop.svg" alt="" class="mop">
+                                    <small>北京市 北京市北京市 北京市西城区太平桥大街18号丰融国际203号</small>
+                                    <span class="distance">337 m</span>
+                                    <div class="number">
+                                        <span>4</span>
+                                        <img class="getgreen" src="./images/icon-pin-solid-grey.svg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="storelist-li">
+                                    <img src="./images/icon-info-green.svg" alt="" class="info-green">
+                                    <span class="storelist-title">北京金融街金树街店</span>
+                                    <img src="./images/delivery.png" alt="" class="delivery">
+                                    <img src="./images/icon-mop.svg" alt="" class="mop">
+                                    <small>北京市 北京市北京市 北京市西城区金城坊街金融街街公寓F座9-11号</small>
+                                    <span class="distance">631 m</span>
+                                    <div class="number">
+                                        <span>6</span>
+                                        <img class="getgreen" src="./images/icon-pin-solid-grey.svg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="storelist-li">
+                                    <img src="./images/icon-info-green.svg" alt="" class="info-green">
+                                    <span class="storelist-title">北京西单大悦城3店</span>
+                                    <img src="./images/delivery.png" alt="" class="delivery">
+                                    <img src="./images/icon-mop.svg" alt="" class="mop">
+                                    <small>北京市 北京市北京市 北京市西城区西单北大街131号楼地上一层101号1F-30A号</small>
+                                    <span class="distance">638 m</span>
+                                    <div class="number">
+                                        <span>7</span>
+                                        <img class="getgreen" src="./images/icon-pin-solid-grey.svg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- 点击菜单 -->
+                <div class="display-four">
+                    <div class="menu-all-box">
+                        <span class="create menu">菜单</span>
+                        <div class="tabs-wrapper menu-wrapper">
+                            <ul>
+                                <li><a href="javascript:void(0);" class="tabs active menu-all"><span>全部</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs menu-drink"><span>饮料</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs menu-food"><span>美食</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs menu-coffee"><span>咖啡产品</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs menu-shop"><span>商品</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-drink-box">
+                        <a class="back">
+                            <img src="./images/back.svg" alt="">
+                            菜单
+                        </a>
+                        <span class="create menu">饮料</span>
+                        <div class="tabs-wrapper menu-wrapper">
+                            <ul>
+                                <li><a href="javascript:void(0);" class="tabs active menu-all"><span>全部</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>星巴克玩味冰调</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>手工调制浓缩咖啡</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>星冰乐®</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>茶瓦纳™</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>经典巧克力饮品</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>咖啡融合冰淇淋</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>星巴克冷萃咖啡系列</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>气致™冷萃咖啡</span></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-food-box">
+                        <a class="back">
+                            <img src="./images/back.svg" alt="">
+                            菜单
+                        </a>
+                        <span class="create menu">美食</span>
+                        <div class="tabs-wrapper menu-wrapper">
+                            <ul>
+                                <li><a href="javascript:void(0);" class="tabs active menu-all"><span>全部</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>烘焙</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>蛋糕&甜品</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>三明治、帕尼尼、卷</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>酸奶</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>其他美食</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>早安新一天</span></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-coffee-box">
+                        <a class="back">
+                            <img src="./images/back.svg" alt="">
+                            菜单
+                        </a>
+                        <span class="create menu">美食</span>
+                        <div class="tabs-wrapper menu-wrapper">
+                            <ul>
+                                <li><a href="javascript:void(0);" class="tabs active menu-all"><span>全部</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>咖啡豆</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>星巴克VIA® 免煮咖啡</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>星巴克臻选™咖啡</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>Origami™</span></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-shop-box">
+                        <a class="back">
+                            <img src="./images/back.svg" alt="">
+                            菜单
+                        </a>
+                        <span class="create menu">商品</span>
+                        <div class="tabs-wrapper menu-wrapper">
+                            <ul>
+                                <li><a href="javascript:void(0);" class="tabs active menu-all"><span>全部</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>常规产品</span></a></li>
+                                <li><a href="javascript:void(0);" class="tabs"><span>臻选产品</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- 点击右上角图标start -->
+        <div class="display-right">
+            <header>
+                <div class="header">
+                    <div class="header-left">
+                        <div class="logo">
+                            <h1>
+                                <a href="index.html" title="星巴克">星巴克</a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <a href="javascript:void(0);" class="close">
+                            <img src="./images/icon-close.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <ul class="container">
+                <li><a href="javascript:void(0);"><span class="header-shop">门店</span></a></li>
+                <li><a href="javascript:void(0);"><span class="header-account">星享俱乐部</span></a></li>
+                <li class="lastli header-menu"><a href="javascript:void(0);"><span class="header-menu">菜单</span></a>
+                </li>
+                <li><a href="javascript:void(0);"><span>星巴克移动应用</span></a></li>
+                <li><a href="javascript:void(0);"><span>星礼卡</span></a></li>
+                <li><a href="javascript:void(0);"><span>星巴克臻选</span></a></li>
+                <li><a href="javascript:void(0);"><span>啡快™ － 在线点 到店取</span></a></li>
+                <li><a href="javascript:void(0);"><span>专星送™</span></a></li>
+                <li><a href="javascript:void(0);"><span>咖啡星讲堂</span></a></li>
+                <li><a href="javascript:void(0);"><span>上海烘焙工坊</span></a></li>
+                <li><a href="javascript:void(0);"><span>关于星巴克</span></a></li>
+                <li class="lastli"><a href="javascript:void(0);"><span>帮助中心</span></a></li>
+                <div class="account">
+                    <div class="nav-footer">
+                        <div class="denglu">
+                            <a href="javascript:void(0);">
+                                <img src="./images/icon-account.svg" alt="">
+                            </a>
+                            <a href="javascript:void(0);" class="deng">登录</a>
+                        </div>
+                        <a href="javascript:void(0);" class="zhuce"><span>注册</span></a>
+                    </div>
+                    <div class="collapse">
+                        <span><a href="javascript:void(0);">English</a></span>
+                        |
+                        <span><a href="javascript:void(0);">隐私政策</a></span>
+                        |
+                        <span><a href="javascript:void(0);">使用条款</a></span>
+                    </div>
+
+                </div>
+            </ul>
+
+        </div>
+        <!-- 点击右上角图标start -->
+
+        <!-- 左侧导航栏end -->
+
+        <!-- 右侧主体start -->
+        <div class="main">
+            <!-- 初始页面 start-->
+            <div class="main-all">
+                <!-- 轮播图start -->
+                <div class="carousel">
+                    <div class="tag">广告</div>
+                    <ul id="list">
+                        <li><a href="javascript:void(0);"><img src="./images/listone.png" alt=""></a></li>
+                        <li><a href="javascript:void(0);"><img src="./images/listtwo.jpg" alt=""></a></li>
+                        <li><a href="javascript:void(0);"><img src="./images/listthree.png" alt=""></a></li>
+                    </ul>
+                    <a href="javascript:;" class="rightbtn" id="rightbtn"><img src="./images/icon-arrow-white.svg"
+                            alt=""></a>
+                </div>
+                <!-- 轮播图end -->
+
+                <div class="promotion">
+                    <div class="grid-all">
+                        <div class="grid">
+                            <a href="javascript:;">
+                                <img src="./images/gridone.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="grid">
+                            <a href="javascript:;">
+                                <img src="./images/gridtwo.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="grid">
+                            <a href="javascript:;">
+                                <img src="./images/gridthree.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="club">
+                    <div class="club-wrapper">
+                        <div class="club-left">
+                            <h2>星享俱乐部</h2>
+                            <p>开启您的星享之旅，星星越多、会员等级越高、好礼越丰富。
+                                <a href="javascript:;" class="more">了解更多 ›</a>
+                            </p>
+                            <div class="club-foot">
+                                <a href="javascript:;" class="zhuce club-click">注册</a>
+                                <a href="javascript:;" class="denglu club-click">登录</a>
+                            </div>
+                        </div>
+                        <img src="./images/logo-msr.svg" alt="" class="club-right">
+                    </div>
+                </div>
+                <div class="tmall">
+                    <div class="tmall-wrapper">
+                        <h2>星巴克精选</h2>
+                        <p>在星巴克天猫旗舰店发现更多咖啡心意</p>
+                        <ul class="tmall-grid">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/cardone.png" alt="">
+                                    <div class="tmall-title"><strong>会员星礼包</strong></div>
+                                    <div class="margin">
+                                        星享卡新升级<br>更多心意好礼
+                                    </div>
+                                    <div class="caption">了解更多 ›</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/cardtwo.png" alt="">
+                                    <div class="tmall-title"><strong>星礼卡</strong></div>
+                                    <div class="margin">
+                                        用一份心礼<br>让心意相随
+                                    </div>
+                                    <div class="caption">了解更多 ›</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/cardthree.png" alt="">
+                                    <div class="tmall-title"><strong>电子产品券</strong></div>
+                                    <div class="margin">
+                                        心意<br>从这一杯开始
+                                    </div>
+                                    <div class="caption">了解更多 ›</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./images/cardfour.png" alt="">
+                                    <div class="tmall-title"><strong>咖啡生活</strong></div>
+                                    <div class="margin">
+                                        星巴克<br>用心制作
+                                    </div>
+                                    <div class="caption">了解更多 ›</div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="coffeehouse">
+                    <div class="coffeehouse-wrapper">
+                        <h2>1912 派克街 | 咖啡星讲堂</h2>
+                        <p>了解更多星巴克咖啡文化</p>
+                    </div>
+                    <div class="scroll-wrapper">
+                        <div class="scroll-arrow scroll-arrow-left">
+                            <img src="./images/scroll-arrow-left.svg" alt="">
+                        </div>
+                        <div class="scroll-arrow scroll-arrow-right">
+                            <img src="./images/scroll-arrow-right.svg" alt="">
+                        </div>
+                        <div class="scroll-items">
+                            <a href="javascript:;">
+                                <img src="./images/coffeeone.jpg" alt="">
+                                <span class="coffeetag">咖啡知识</span>
+                                <strong>咖啡的起源与培植</strong>
+                            </a>
+                            <a href="javascript:;">
+                                <img src="./images/coffeetwo.jpg" alt="">
+                                <span class="coffeetag">咖啡品鉴</span>
+                                <strong>咖啡调制</strong>
+                            </a>
+                            <a href="javascript:;">
+                                <img src="./images/coffeethree.jpg" alt="">
+                                <span class="coffeetag">咖啡知识</span>
+                                <strong>咖啡烘焙</strong>
+                            </a>
+                            <a href="javascript:;">
+                                <img src="./images/coffeefour.jpg" alt="">
+                                <span class="coffeetag">咖啡品鉴</span>
+                                <strong>手冲咖啡</strong>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="coffeehouse-wrapper footer">
+                        <span>
+                            <a href="javascript:;">
+                                <img src="./images/icpicon.png" alt=""> 沪公网安备 31010402000253号
+                            </a>
+                        </span>
+                        <span>|
+                            <a href="javascript:;">沪ICP备17003747号-1</a>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- 初始页面 end-->
+
+            <!-- 登录页面start -->
+            <div class="account-register">
+                <div class="welcome">
+                    <img src="./images/listtwo.jpg" alt="">
+                </div>
+                <div class="join-form">
+                    <div class="login-tip">
+                        <p><span>扫码登录</span></p>
+                    </div>
+                    <div class="wrapper-mobile">
+                        <div class="form-field">
+                            <div class="user-field">
+                                <input type="text" class="username" placeholder="用户名或者电子邮箱" autocomplete="new-password">
+                                <label for="" class="user">用户名或者电子邮箱</label>
+                                <div class="message">此栏不可为空</div>
+                            </div>
+                            <div class="password-field">
+                                <input type="password" class="password" placeholder="密码" autocomplete="new-password">
+                                <label for="" class="pass">密码</label>
+                                <div class="toggle-password"></div>
+                            </div>
+
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" value="on">
+                            <label for="login-remember" class="login-remember">
+                                <span>下次自动登录</span>
+                            </label>
+                            <p><a href="javascript:void(0);"><span>忘记密码？</span></a></p>
+                        </div>
+                        <div class="body-wrap">
+                            <div class="wrap-title">
+                                <span>拖动下方滑块完成拼图</span>
+                                <div class="embed">
+                                    <span class="update"></span>
+                                    <span class="why"></span>
+                                </div>
+                            </div>
+                            <div id="verify">
+                                <div id="drag"></div>
+                                <div id="dot"></div>
+                                <div class="line"></div>
+                                <div id="success">
+                                    <span>
+                                        <div class="success-right"></div>
+                                        <div class="success-word">验证成功！</div>
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <div class="actions-button">
+                                <span>登录</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="padded">
+                    <div class="padded-main">
+                        <div class="gold">
+                            <h2><span>加入星享俱乐部</span></h2>
+                            <p>只需几分钟，便可成功注册星享俱乐部帐户，成为“星”会员，立即开启集星之旅。</p>
+                        </div>
+                        <div class="gold-buttom">
+                            <a href="javascript:void(0);"><span>注册</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 登录页面end -->
+
+
+            <!-- 菜单页面start -->
+            <div class="page-menu-list">
+                <div class="frap">
+                    搜索菜单
+                </div>
+                <ul class="menu_ul_one">
+                    <h3></h3>
+                    <div class="tag">广告</div>
+                </ul>
+                <ul class="menu_ul_two">
+                    <h3></h3>
+
+                </ul>
+
+                <ul class="menu_ul_three">
+                    <h3></h3>
+
+                </ul>
+
+            </div>
+            <!-- 菜单页面end -->
+
+        </div>
+        <!-- 右侧主体end -->
+
+    </div>
+</body>
+
+</html>
